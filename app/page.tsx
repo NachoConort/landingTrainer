@@ -4,6 +4,7 @@ import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import FloatingWhatsApp from "./components/FloatingWhatsapp";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Testimonials />
       <CTA />
+      <FloatingWhatsApp />
     </main>
   );
 }
